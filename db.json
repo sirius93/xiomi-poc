@@ -1,0 +1,143 @@
+{
+  "order": [
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "RedmiMi4",
+      "variant": "64GB",
+      "retailer": "1bxde4",
+      "id": "H1Md-A8Kf"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde4",
+      "": "",
+      "id": "B1xZGALFz"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde4",
+      "": "",
+      "id": "SJzuGAItz"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde4",
+      "": "",
+      "id": "Bk5tG0IYf"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde4",
+      "": "",
+      "id": "HJRYGCUtz"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde5",
+      "": "",
+      "id": "SyNvy1PYM"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "RedmiMi4",
+      "variant": "64GB",
+      "retailer": "1bxde5",
+      "": "",
+      "id": "r1QyekvYG"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde5",
+      "": "",
+      "id": "S1icxkwYM"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde5",
+      "": "",
+      "id": "Hy5nlywFz"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde5",
+      "": "",
+      "id": "rkkpekwFG"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde6",
+      "": "",
+      "id": "r1OMbyDKG"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde6",
+      "": "",
+      "id": "HJZQ-kPtM"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde6",
+      "": "",
+      "id": "SyrXZywYM"
+    },
+    {
+      "email": "nandan.1345@gmail.com",
+      "customer-name": "Ritesh Kumar",
+      "phone-model": "Redmi Note 4",
+      "variant": "64GB",
+      "retailer": "1bxde6",
+      "": "",
+      "id": "ryU7-kPKf"
+    }
+  ],
+  "retailer": [
+    {
+      "count": "4",
+      "id": "1bxde4"
+    },
+    {
+      "count": "4",
+      "id": "1bxde5"
+    },
+    {
+      "count": "4",
+      "id": "1bxde6"
+    }
+  ]
+}

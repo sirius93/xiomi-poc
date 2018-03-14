@@ -1,0 +1,15 @@
+.form-container{
+    padding: 20px;
+    width: 500px;
+    border: 1px dashed black;
+    margin: 20px;
+    border-radius: 10px;
+}
+p#message {
+    text-align: center;
+    border: 2px dashed black;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+    display: none;
+}
