@@ -1,15 +1,38 @@
 .form-container{
     padding: 20px;
     width: 500px;
-    border: 1px dashed black;
-    margin: 20px;
+    border: 1px dashed white;
+    margin: 70px 20px 20px 20px;
     border-radius: 10px;
 }
 p#message {
     text-align: center;
-    border: 2px dashed black;
+    border: 2px dashed white;
     border-radius: 5px;
     padding: 2px;
     font-weight: bold;
     display: none;
+}
+div#loadingDiv {
+    position: absolute;
+    margin: 0 auto;
+    top: 40%;
+    left: 20%;
+    height: 100%;
+    opacity: 0.3;
+}
+.main-div{
+    background-image: url('./background-image-2.jpg');
+    background-color:rgba(40, 50, 200, 0.4);
+    color: white;
+    height: 662px;
+}
+.pic-box{
+    background-image: url('./side-mobile.png')
+}
+#submit-button {
+    background-color: unset;
+    color: white;
+    border: 2px solid white;
+    margin-top: 10px;
 }

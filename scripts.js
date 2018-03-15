@@ -1,6 +1,16 @@
 var datbaseUrl = "http://localhost:3000";
 
 // var email = $('#email').value();
+$('#loadingDiv').hide()
+// window.ajaxStart( function(e) {
+//     e.preventDefault();
+//     $('#loadingDiv').show();  // show Loading Div
+//     } );
+
+//     window.ajaxStop ( function(e){
+//     e.preventDefault();
+//     $('#loadingDiv').hide(); // hide loading div
+//     });
 
 $('#myForm').submit(function(e) {
     e.preventDefault();
@@ -13,6 +23,7 @@ $('#myForm').submit(function(e) {
     $inputs.each(function() {
         values[this.name] = $(this).val();
     });
+    $("#loadingDiv").show();
     console.log(values)
     $.ajax({
         method: "GET",
@@ -39,15 +50,21 @@ $('#myForm').submit(function(e) {
                               };
                             $('#message').html('Order Posted Successfully')
                             $('.message').css(passstyles)
+                            $("#loadingDiv").hide();
+                            $("#myForm").trigger("reset");
+                            setTimeout(function(){ $('#message').hide() }, 2000);                            
                           })
                     });
         }else{
+            $("#loadingDiv").hide();
             var failstyles = {
                 color : "red",
                 display : "block"
               };
             $('#message').html('Order Limit Exceeded for the retailer')
             $('.message').css(failstyles)
+            $("#myForm").trigger("reset");            
+            setTimeout(function(){ $('#message').hide() }, 2000);
         }
       },
       error : function(){
@@ -67,8 +84,11 @@ $('#myForm').submit(function(e) {
                     color : "black",
                     display : "block"
                   };
-                $('#message').html('Order Posted Successfully')
-                $('.message').css(passstyles)
+                $('#message').html('Order Posted Successfully');
+                $('.message').css(passstyles);
+                $("#loadingDiv").hide();
+                $("#myForm").trigger("reset");
+                setTimeout(function(){ $('#message').hide() }, 2000);
               })
         });
       }
